@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameMaster : MonoBehaviour {
+    public Transform musicPrefab;
 
     public static int currentScore = 0;
     public static int deathCounter = 0;
@@ -21,6 +22,13 @@ public class GameMaster : MonoBehaviour {
         // Use this for initialization
         void Start () {
         currentScore = 0;
+
+        if (!GameObject.FindWithTag("MM"))
+        {
+            Transform mManager = Instantiate(musicPrefab, transform.position, Quaternion.identity);
+            mManager.name = musicPrefab.name;
+            DontDestroyOnLoad(mManager);
+        }
 	}
 	
 	// Update is called once per frame
