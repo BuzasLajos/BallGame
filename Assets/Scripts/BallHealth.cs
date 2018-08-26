@@ -22,17 +22,17 @@ public class BallHealth : MonoBehaviour {
             GetComponent<AudioSource>().clip = gameOverSound;
             GetComponent<AudioSource>().PlayDelayed(0);
 
-            StartCoroutine(RestartLevel());
+            StartCoroutine(RestartLevel("Level00"));
 
         }
     }//Update
 
 
-    IEnumerator RestartLevel()
+    IEnumerator RestartLevel(string level)
     {
         Debug.Log("Game Over!");
         yield return new WaitForSeconds(2);
-        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene(level);
         GameMaster.deathCounter += 1;
     }//RestartLevel
 }
