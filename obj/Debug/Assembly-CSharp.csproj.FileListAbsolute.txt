@@ -166,3 +166,9 @@ C:\Users\aztam\Documents\BallGame\Temp\bin\Debug\UnityEngine.ParticlesLegacyModu
 C:\Users\aztam\Documents\BallGame\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\aztam\Documents\BallGame\obj\Debug\Assembly-CSharp.dll
 C:\Users\aztam\Documents\BallGame\obj\Debug\Assembly-CSharp.pdb
+C:\Users\aztam\Documents\BallGame\Temp\bin\Debug\ChannelPurchase.dll
+C:\Users\aztam\Documents\BallGame\Temp\bin\Debug\Editor.dll
+C:\Users\aztam\Documents\BallGame\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+C:\Users\aztam\Documents\BallGame\Temp\bin\Debug\UnityStore.dll
+C:\Users\aztam\Documents\BallGame\Temp\bin\Debug\XiaomiSupport.dll
+C:\Users\aztam\Documents\BallGame\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.xml
